@@ -1,0 +1,72 @@
+body{
+    display: flex;
+}
+
+#leftSide{
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightSide{
+    width: 50%;
+    background-color: white;
+}
+
+
+#MainDisplay{
+    background-color: grey;
+    color: black;
+
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+
+    font-size: 5rem;
+    text-align: left;
+}
+
+
+
+.Button{
+    color: white;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.AbilityButton{
+    color: white;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
